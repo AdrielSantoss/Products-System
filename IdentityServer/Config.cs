@@ -11,12 +11,11 @@ namespace IdentityServer
     public static class Config
     {
         public static IEnumerable<IdentityResource> IdentityResources =>
-            new List<IdentityResource>
+            new IdentityResource[]
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
             };
-
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
@@ -27,25 +26,27 @@ namespace IdentityServer
         public static IEnumerable<Client> Clients =>
             new List<Client>
             {
-                // Angular Client
-                new Client
-                {
-                    ClientId = "ts",
-                    ClientName = "Angular Client",
+        new Client
+        {
+                    ClientId = "angular_spa",
+                    ClientName = "angular SPA",
                     AllowedGrantTypes = GrantTypes.Code,
                     RequireClientSecret = false,
+                    RequireConsent = false,
 
-                    RedirectUris =           { "https://localhost:4200/callback.html" },
-                    PostLogoutRedirectUris = { "https://localhost:4200/index.html" },
-                    AllowedCorsOrigins =     { "https://localhost:4200" },
+                    RedirectUris =           { "http://localhost:4200/auth-callback" },
+                    PostLogoutRedirectUris = { "http://localhost:4200/" },
+                    AllowedCorsOrigins =     { "http://localhost:4200" },
 
-                    AllowedScopes =
+                    AllowOfflineAccess = true, //Ativamos o suporte para tokens de atualização
+
+                    AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Profile, 
                         "api1"
                     }
-                }
-            };
+        }
+      };
     }
 }
