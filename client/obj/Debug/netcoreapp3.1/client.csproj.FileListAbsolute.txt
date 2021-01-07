@@ -1,0 +1,17 @@
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\client.exe
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\client.deps.json
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\client.runtimeconfig.json
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\client.runtimeconfig.dev.json
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\client.dll
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\client.pdb
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Asantos\Prototipos\Products-Master-2\client\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.csprojAssemblyReference.cache
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.AssemblyInfoInputs.cache
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.AssemblyInfo.cs
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.csproj.CoreCompileInputs.cache
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.csproj.CopyComplete
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.dll
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.pdb
+C:\Asantos\Prototipos\Products-Master-2\client\obj\Debug\netcoreapp3.1\client.genruntimeconfig.cache

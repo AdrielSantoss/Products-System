@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mbIUudILbnBVD8ddLL3uLfC/hq17e/YmA3zB/fNO99FLb+qyyTsVYmdELDKm64N5L7Gu0MaZWh7ij6l1609ahQ==",
+  "success": true,
+  "projectFilePath": "C:\\Asantos\\Prototipos\\Products-Master-2\\client\\client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asantos\\.nuget\\packages\\identitymodel\\4.6.0\\identitymodel.4.6.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\asantos\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
