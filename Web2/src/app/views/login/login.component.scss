@@ -1,0 +1,45 @@
+.card-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 29px;
+    color: white;
+}
+
+.login-container{  
+    width: 600px;
+    height: 270px; 
+    margin-top: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.login-title {
+    width: 100%;
+    background-color: rgb(80, 80, 190);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.login-body{
+    padding: 20px;
+}
+
+.login-body label{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.container-text{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-size: 15px;
+}
+.buttons{
+    text-align: center;
+}
