@@ -67,3 +67,4 @@ C:\Asantos\Prototipos\Products-Master-2\IdentityServer\obj\Debug\netcoreapp3.1\R
 C:\Asantos\Prototipos\Products-Master-2\IdentityServer\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Asantos\Prototipos\Products-Master-2\IdentityServer\obj\Debug\netcoreapp3.1\IdentityServer.RazorTargetAssemblyInfo.cs
 C:\Asantos\Prototipos\Products-Master-2\IdentityServer\obj\Debug\netcoreapp3.1\IdentityServer.Views.pdb
+C:\Asantos\Prototipos\Products-Master-2\IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll

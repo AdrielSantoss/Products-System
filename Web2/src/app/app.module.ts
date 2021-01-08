@@ -11,8 +11,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { AuthCallbackComponent } from './auth-callback/auth-callback.component';
-import { ShellModule } from './shell/shell.module';
 import { IndexComponent } from './views/secret-area/index/index.component';
+import { UpdateUserComponent } from './views/update-user/update-user.component';
 
 
 
@@ -23,7 +23,8 @@ import { IndexComponent } from './views/secret-area/index/index.component';
     HomeComponent,
     HeaderComponent,
     AuthCallbackComponent ,
-    IndexComponent
+    IndexComponent,
+    UpdateUserComponent
   ],
   imports: [
     BrowserModule,
@@ -32,8 +33,7 @@ import { IndexComponent } from './views/secret-area/index/index.component';
     MatToolbarModule,
     MatIconModule,
     HttpClientModule,
-    AppRoutingModule,
-    ShellModule  
+    AppRoutingModule
     ],
   providers: [],
   bootstrap: [AppComponent]

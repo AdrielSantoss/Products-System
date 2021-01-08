@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2os+C0UX+TG+9fYNg1EzKan8TQEBtS4G7OwHtwNxDLdCPveqHCylc9tVM2bE5D3HZ4YKYPpa0uuvAMdqDEkxLg==",
+  "dgSpecHash": "bgcgq/tOpyxzWDfRBNtRVpjiG0LlloN2n9f9HVFNQ69PBo0G0+knbiBPy1oFF3/JvEDtQOXilZ6OdgS49LGRmg==",
   "success": true,
   "projectFilePath": "C:\\Asantos\\Prototipos\\Products-Master-2\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asantos\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\asantos\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",
     "C:\\Users\\asantos\\.nuget\\packages\\identityserver4.storage\\4.0.0\\identityserver4.storage.4.0.0.nupkg.sha512",
+    "C:\\Users\\asantos\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.10\\microsoft.aspnetcore.authentication.facebook.3.1.10.nupkg.sha512",
     "C:\\Users\\asantos\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.0\\microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
     "C:\\Users\\asantos\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\asantos\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",

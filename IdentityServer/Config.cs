@@ -28,25 +28,34 @@ namespace IdentityServer
             {
         new Client
         {
-                    ClientId = "angular_spa",
-                    ClientName = "angular SPA",
-                    AllowedGrantTypes = GrantTypes.Code,
-                    RequireClientSecret = false,
-                    RequireConsent = false,
+            ClientId = "angular_spa",
+            ClientName = "angular SPA",
+            AllowedGrantTypes = GrantTypes.Code,
+            RequireClientSecret = false,
+            //RequireConsent = false,
 
-                    RedirectUris =           { "http://localhost:4200/auth-callback" },
-                    PostLogoutRedirectUris = { "http://localhost:4200/" },
-                    AllowedCorsOrigins =     { "http://localhost:4200" },
+            RedirectUris =           { "http://localhost:4200/auth-callback" },
+            PostLogoutRedirectUris = { "http://localhost:4200/" },
+            AllowedCorsOrigins =     { "http://localhost:4200" },
 
-                    AllowOfflineAccess = true, //Ativamos o suporte para tokens de atualização
+            AllowOfflineAccess = true, //Ativamos o suporte para tokens de atualização
 
-                    AllowedScopes = new List<string>
-                    {
-                        IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile, 
-                        "api1"
-                    }
-        }
+            AllowedScopes = new List<string>
+              {
+                IdentityServerConstants.StandardScopes.OpenId,
+                IdentityServerConstants.StandardScopes.Profile, 
+                "api1"
+              }
+          },
+            new Client
+                {
+                  ClientId = "client",
+                  ClientSecrets = { new Secret("secret".Sha256()) },
+
+                  AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    // scopes that client has access to
+                  AllowedScopes = { "api1" }
+            },
       };
     }
 }

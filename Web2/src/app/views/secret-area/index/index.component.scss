@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+tbody{
+    cursor: pointer;
+}
+
+tbody:hover{
+    background-color: rgb(242, 242, 242);
+    transition: 0.5s;
+}
+
+.edit{
+    color: rgb(201, 191, 62); 
+}
+
+.close{
+    color: red;
+}
+
+.icons-wrapper{
+    display: flex;
+}

@@ -21,7 +21,7 @@ export class TopSecretService extends BaseService {
       })
     };
 
-    return this.http.get('https://localhost:6001/identity', httpOptions).pipe(catchError(this.handleError));
+    return this.http.get('https://localhost:6001/identity/users', httpOptions).pipe(catchError(this.handleError));
   }
 
 }

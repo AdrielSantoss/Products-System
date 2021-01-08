@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { finalize } from 'rxjs/operators'
 import { AuthService } from 'src/app/core/authentication/auth.service';
@@ -16,16 +17,20 @@ export class IndexComponent implements OnInit {
   claims=null;
   busy: boolean;
 
-  constructor(private authService: AuthService, private topSecretService: TopSecretService) {}
+  constructor(private authService: AuthService, private topSecretService: TopSecretService, private router: Router) {}
 
     ngOnInit() {    
-      this.busy = true;
-      this.topSecretService.fetchTopSecretData(this.authService.authorizationHeaderValue)
-      .pipe(finalize(() => {
-        this.busy = false;
-      })).subscribe(
-      result => {         
-        this.claims = result;
-     });
+      if(this.authService.isAuthenticated()){
+        this.busy = true;
+        this.topSecretService.fetchTopSecretData(this.authService.authorizationHeaderValue)
+        .pipe(finalize(() => {
+          this.busy = false;
+        })).subscribe(
+        result => {         
+          this.claims = result;
+       });
+      }else {
+        this.router.navigate(['/']);
+      }
     }
 }

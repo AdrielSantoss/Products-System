@@ -21,6 +21,7 @@ namespace IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+
             // uncomment, if you want to add an MVC-based UI
             services.AddControllersWithViews();
 
@@ -34,9 +35,17 @@ namespace IdentityServer
                 .AddInMemoryClients(Config.Clients)
                 .AddTestUsers(TestUsers.Users);
 
-
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();
+
+        
+            /*
+             services.AddAuthentication()
+                 .AddFacebook(config =>
+                  {
+                      config.AppId = "503260020645024";
+                      config.AppSecret = "e661f8a56a0902f67526fc18c4b321ed";
+                  }); */        
         }
 
         public void Configure(IApplicationBuilder app)
